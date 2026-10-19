@@ -1,0 +1,127 @@
+/* Base Application Styling */
+.root {
+    -fx-background-color: #1e1e1e;
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Buttons */
+.btn-base {
+    -fx-background-color: #3a3a3a;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 12;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+.btn-base:hover {
+    -fx-background-color: #4a4a4a;
+}
+
+.btn-active {
+    -fx-background-color: #81b64c;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 12;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+.btn-active:hover {
+    -fx-background-color: #95c959;
+}
+
+.btn-danger {
+    -fx-background-color: #c05242;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 12;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+.btn-danger:hover {
+    -fx-background-color: #d16252;
+}
+
+.btn-warn {
+    -fx-background-color: #d17c4a;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 12;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+.btn-warn:hover {
+    -fx-background-color: #e08c5a;
+}
+
+/* Small Buttons (Time, Difficulty, Theme) */
+.btn-small {
+    -fx-background-color: #3a3a3a;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 0 8 0;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+.btn-small:hover {
+    -fx-background-color: #4a4a4a;
+}
+
+.btn-small-active {
+    -fx-background-color: #81b64c;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 0 8 0;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+
+/* Drawer / Panels */
+.drawer {
+    -fx-background-color: #262421;
+    -fx-padding: 24;
+}
+.drawer-overlay {
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+}
+.panel {
+    -fx-background-color: #262421;
+    -fx-background-radius: 10;
+    -fx-padding: 16;
+}
+.panel-label {
+    -fx-text-fill: #9a9a9a;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+/* Section Headers in Drawer */
+.section-header {
+    -fx-background-color: #1e1c1a;
+    -fx-text-fill: #c8c6c3;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 12 10 12;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+
+/* Popups */
+.popup-card {
+    -fx-background-color: #312e2b;
+    -fx-background-radius: 14;
+}
+.popup-title {
+    -fx-text-fill: #f5c542;
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+}
+.popup-message {
+    -fx-text-fill: #e8e8e8;
+    -fx-font-size: 18px;
+}

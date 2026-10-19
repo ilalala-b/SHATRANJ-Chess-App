@@ -1,0 +1,16 @@
+org\example\GameSession$Difficulty.class
+org\example\Move.class
+org\example\Piece$Type.class
+org\example\ChessController$BoardTheme.class
+org\example\GameSession$Mode.class
+org\example\Move$Flag.class
+org\example\Piece$Color.class
+org\example\ChessController.class
+org\example\ChessController$2.class
+org\example\GameSession.class
+org\example\Algorithms$1.class
+org\example\ChessController$1.class
+org\example\Algorithms.class
+org\example\GameSession$1.class
+org\example\Launcher.class
+org\example\Piece.class
